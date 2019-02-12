@@ -22,7 +22,3 @@ app.post("/hook",function(req,res){
     url:"https://api.telegram.org/bot743501577:AAFeulDtnW13uGflLZn6DmHT-GwbSNPGjLw/sendMessage?text="+message+"&chat_id=@hstestchannelapac"
   };
 });
-
-app.get("/hook", function(req,res){
-  console.log("siao");
-});
